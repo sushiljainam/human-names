@@ -3,14 +3,10 @@
   "version": "1.0.11",
   "description": "Get popular human names",
   "license": "MIT",
-  "repository": "AlessandroMinoccheri/human-names",
-  "bin": {
-    "human-names": "cli.js"
-  },
+  "repository": "sushiljainam/human-names",
   "author": {
     "name": "Alessandro Minoccheri",
-    "email": "alessandro.minoccheri@gmail.com",
-    "url": "alessandrominoccheri.com"
+    "email": "alessandro.minoccheri@gmail.com"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -20,13 +16,9 @@
   },
   "files": [
     "index.js",
-    "cli.js",
     "data"
   ],
   "keywords": [
-    "cli-app",
-    "cli",
-    "bin",
     "word",
     "words",
     "list",
