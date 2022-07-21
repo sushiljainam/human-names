@@ -41,7 +41,6 @@
     "male"
   ],
   "dependencies": {
-    "meow": "^3.0.0",
     "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
