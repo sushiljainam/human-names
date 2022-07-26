@@ -1,4 +1,4 @@
-# human-names v1.0.11 [![Build Status](https://travis-ci.org/AlessandroMinoccheri/human-names.svg?branch=master)](https://travis-ci.org/AlessandroMinoccheri/human-names)
+# random-human-names v2.0.4 [![Build Status](https://travis-ci.org/AlessandroMinoccheri/human-names.svg?branch=master)](https://travis-ci.org/AlessandroMinoccheri/human-names)
 
 Get popular human english, italian, french, deutch, spanish or dutch names.
 
@@ -10,20 +10,19 @@ Thanks to the author https://github.com/sindresorhus
 
 The name lists are just JSON files and can be used wherever.
 
-*Not accepting PRs for additional names.*
 
 
 ## Install
 
 ```
-$ npm install --save human-names
+$ npm install --save random-human-names
 ```
 
 
 ## Usage
 
 ```js
-var humanNames = require('human-names');
+var humanNames = require('random-human-names');
 
 humanNames.femaleRandom();
 //=> Lucy
@@ -68,30 +67,6 @@ Type: `function`
 
 Random name.
 
-
-## CLI
-
-```
-$ npm install --global human-names
-```
-
-```
-$ human-names --help
-
-  Examples
-    $ human-names
-    Lucy
-
-    $ human-names --all --type male
-    Max
-    John
-    ...
-
-  Options
-    --all   Get all names instead of a random name
-    --type  Type of name: female|male|all  Default: all
-    --lang  lang of name: en|it|fr|de|es|nl  Default: en
-```
 
 ## License
 
