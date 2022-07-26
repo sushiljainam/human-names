@@ -1,13 +1,19 @@
 {
-  "name": "human-names",
-  "version": "1.0.11",
+  "name": "random-human-names",
+  "version": "2.0.4",
   "description": "Get popular human names",
   "license": "MIT",
   "repository": "sushiljainam/human-names",
-  "author": {
-    "name": "Alessandro Minoccheri",
-    "email": "alessandro.minoccheri@gmail.com"
-  },
+  "authors": [
+    {
+      "name": "Alessandro Minoccheri",
+      "email": "alessandro.minoccheri@gmail.com"
+    },
+    {
+      "name": "Sushil Jain",
+      "email": "sushiljainam@gmail.com"
+    }
+  ],
   "engines": {
     "node": ">=0.10.0"
   },
